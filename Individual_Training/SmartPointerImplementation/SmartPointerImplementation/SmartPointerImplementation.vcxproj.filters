@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SmartPointers">
+      <UniqueIdentifier>{3a3ffef2-9b60-4afa-8cd8-0c60ca14f7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TestClasses">
+      <UniqueIdentifier>{928bbeee-77da-4158-aa65-fc46ef883a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestClasses">
+      <UniqueIdentifier>{0547981f-0146-40fd-bf92-5d404a78337f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SmartPointerImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClass.cpp">
+      <Filter>Source Files\TestClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedClass.cpp">
+      <Filter>Source Files\TestClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseClass.h">
+      <Filter>Header Files\TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedClass.h">
+      <Filter>Header Files\TestClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPointer.h">
+      <Filter>Header Files\SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>Header Files\SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultSPStorage.h">
+      <Filter>Header Files\SmartPointers</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCounter.h">
+      <Filter>Header Files\SmartPointers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

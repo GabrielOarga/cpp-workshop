@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Consumers">
+      <UniqueIdentifier>{63ccec56-a283-4ae8-a029-cc0b296a0af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Consumers">
+      <UniqueIdentifier>{a7afa382-9d06-4498-a0da-e4da195ebef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CustomImplementation">
+      <UniqueIdentifier>{d68658aa-35ca-4e37-9caf-4fc2b3a3c39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomImplementation">
+      <UniqueIdentifier>{2845aacf-bf18-4258-8473-992eb75f4923}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Containers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayConsumer.cpp">
+      <Filter>Source Files\Consumers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayConsumer.h">
+      <Filter>Header Files\Consumers</Filter>
+    </ClInclude>
+    <ClInclude Include="GArray.h">
+      <Filter>Header Files\CustomImplementation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
